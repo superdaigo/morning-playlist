@@ -29,5 +29,4 @@ Usage::
 Options::
 
   time - The time format must be 00:00 or 0:00
-         If no options or the option format is wrong,
-         it will be stop after 1 hour.
+         If no option or with the wrong format, it will be stop after 1 hour.
