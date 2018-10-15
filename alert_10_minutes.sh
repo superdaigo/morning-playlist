@@ -15,8 +15,9 @@ do
   if [ ${MS:1:3} -eq "000" ] ; then
     say -v Kyoko "${TIME} になりました"  # Japanese
   fi
+  sleep 1
   if [ ${TIME} = ${STOP_AT} ] ; then
+    say -v Kyoko "指定の時刻を過ぎたので終了します"  # Japanese
     exit
   fi
-  sleep 1
 done
